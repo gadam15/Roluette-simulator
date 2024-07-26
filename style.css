@@ -1,4 +1,22 @@
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
+    body{
+        background-color: rgb(233, 233, 233);
+    }
+
+    .main{
+        height: 570px;
+        width: 40%;
+        background-color: white;
+        box-shadow: 5px 5px 13px;
+        border-radius: 10px;
+        margin: 1%;
+    }
+
+    .flex{
+        display: flex;
+        justify-content: center;
+    }
+
     .balanceD{
         display: flex;
         justify-content: center;
@@ -89,8 +107,26 @@
     }
 }
 
+.botton{
+    position: absolute;
+    bottom: 0px;
+}
 
-@media (min-width: 320px) and (max-width: 999px) {
+
+@media (min-width: 320px) and (max-width: 1199px) {
+    body{
+        background-color: rgb(233, 233, 233);
+    }   
+
+    .main{
+        height: 550px;
+        /* width: 100%; */
+        background-color: white;
+        box-shadow: 5px 5px 13px;
+        border-radius: 10px;
+        margin: 1%;
+    }
+
     .balanceD{
         display: flex;
         justify-content: center;
@@ -176,5 +212,10 @@
 
     .radioR{
         height: 130px;
+    }
+
+    .botton{
+        position: absolute;
+        bottom: 0px;
     }
 }
