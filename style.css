@@ -1,0 +1,180 @@
+@media (min-width: 1000px) {
+    .balanceD{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .roluetteD{
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    td{
+        color: white;
+    }
+    
+    #R1,#R3,#R5,#R7,#R9,#R12,#R14,#R16,#R18,#R19,#R21,#R23,#R25,#R27,#R30,#R32,#R34,#R36{
+        background-color: red;
+        text-align: center;
+        padding: 10px;
+    }
+    
+    #R2,#R4,#R6,#R8,#R10,#R11,#R13,#R15,#R17,#R20,#R22,#R24,#R26,#R28,#R29,#R31,#R33,#R35{
+        background-color: black;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    #R0{
+        background-color: green;
+        padding: 10px;
+    }
+    
+    .form{
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+    }
+
+    .roluetteNumberPick,.roluetteBet{
+        width: 200px;
+        text-align: center;
+    }
+
+    .outcomeR{
+        text-align: center;
+        display: flex;
+        height: 50px;
+        margin-top: 0px;
+    }
+
+    #placeBetButR,#placeBetButColorR{
+        margin-right: 10px;
+        margin-top: 0px;
+        padding: 7px;
+    }
+
+    #betR, #numberPickR, #betColorR{
+        width: 50px;
+        text-align: center;
+    }
+
+    .L, .R{
+        width: 40px;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+    }
+
+
+
+    .colorR{
+        display: flex; 
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    .boxCR{
+        height: 130px;
+        margin-left: 20px;
+        padding-left: 20px;
+        display: flex;
+        flex-direction: column
+    }
+
+    .radioR{
+        height: 130px;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 999px) {
+    .balanceD{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .roluetteD{
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    td{
+        color: white;
+    }
+    
+    #R1,#R3,#R5,#R7,#R9,#R12,#R14,#R16,#R18,#R19,#R21,#R23,#R25,#R27,#R30,#R32,#R34,#R36{
+        background-color: red;
+        text-align: center;
+        padding: 5px;
+    }
+    
+    #R2,#R4,#R6,#R8,#R10,#R11,#R13,#R15,#R17,#R20,#R22,#R24,#R26,#R28,#R29,#R31,#R33,#R35{
+        background-color: black;
+        padding: 5px;
+        text-align: center;
+    }
+    
+    #R0{
+        background-color: green;
+        padding: 5px;
+    }
+    
+    .form{
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+    }
+
+    .roluetteNumberPick,.roluetteBet{
+        width: 200px;
+        text-align: center;
+    }
+
+    .outcomeR{
+        text-align: center;
+        display: flex;
+        height: 50px;
+        margin-top: 0px;
+    }
+
+    #placeBetButR,#placeBetButColorR{
+        margin-right: 10px;
+        margin-top: 0px;
+        padding: 7px;
+    }
+
+    #betR, #numberPickR, #betColorR{
+        width: 50px;
+        text-align: center;
+    }
+
+    .L, .R{
+        width: 40px;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+    }
+
+    .colorR{
+        display: flex; 
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    .boxCR{
+        height: 130px;
+        margin-left: 20px;
+        padding-left: 20px;
+        display: flex;
+        flex-direction: column
+    }
+
+    .radioR{
+        height: 130px;
+    }
+}

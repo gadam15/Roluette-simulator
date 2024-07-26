@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>roulette</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Avatar.jpg" type="image/x-icon">
+</head>
+<body>
+    <div class="balanceD">
+        <h1>Balance:</h1>
+        <h1 id="balanceP">100</h1>
+    </div>
+    <h2 style="text-align: center">Roulette</h2>
+    <div class="roluetteD">
+        <table>
+            <tr>
+                <td scope="col" rowspan="3" id="R0">0</td>
+                <td id="R3">3</td>
+                <td id="R6">6</td>
+                <td id="R9">9</td>
+                <td id="R12">12</td>
+                <td id="R15">15</td>
+                <td id="R18">18</td>
+                <td id="R21">21</td>
+                <td id="R24">24</td>
+                <td id="R27">27</td>
+                <td id="R30">30</td>
+                <td id="R33">33</td>
+                <td id="R36">36</td>
+            </tr>
+            <tr>
+                <td id="R2">2</td>
+                <td id="R5">5</td>
+                <td id="R8">8</td>
+                <td id="R11">11</td>
+                <td id="R14">14</td>
+                <td id="R17">17</td>
+                <td id="R20">20</td>
+                <td id="R23">23</td>
+                <td id="R26">26</td>
+                <td id="R29">29</td>
+                <td id="R32">32</td>
+                <td id="R35">35</td>
+            </tr>
+            <tr>
+                <td id="R1">1</td>
+                <td id="R4">4</td>
+                <td id="R7">7</td>
+                <td id="R10">10</td>
+                <td id="R13">13</td>
+                <td id="R16">16</td>
+                <td id="R19">19</td>
+                <td id="R22">22</td>
+                <td id="R25">25</td>
+                <td id="R28">28</td>
+                <td id="R31">31</td>
+                <td id="R34">34</td>
+            </tr>
+        </table>
+    </div>
+    <div class="form">
+        <div class="roluetteNumberPick">
+            <label for="numberPickR">
+                <p>Pick a nuber (0-36): <input type="number" name="numberPickR" id="numberPickR" min="0" max="36"></p>
+            </label>
+        </div>
+        
+        <div class="roluetteBet">
+            <label for="betR">
+                <p>Place the bet: <input type="number" name="betR" id="betR" min="1"></p>
+            </label>
+        </div>
+    </div>
+    <div class="form">
+        <div class="outcomeR">
+            <div class="L"><button id="placeBetButR">Bet</button></div>
+            <div class="R"><p id="rolledNumberPR"></p></div>
+        </div>
+    </div>
+
+    <div class="colorR">
+        <div class="radioR">
+            <label for="greenRadio">
+                <p>Green<input type="radio" name="color" id="greenRadio"></p>
+            </label>
+            <label for="redRadio">
+                <p>Red<input type="radio" name="color" id="redRadio"></p>
+            </label>
+            <label for="blackRadio">
+                <p>Black<input type="radio" name="color" id="blackRadio"></p>
+            </label>
+        </div>
+        <div class="boxCR">
+            <div class="roluetteBetColor">
+                <label for="betColorR">
+                    <p>Place the bet: <input type="number" name="betColorR" id="betColorR" min="1"></p>
+                </label>
+            </div>
+
+            <div class="formColor">
+                <div class="outcomeR">
+                    <div class="L"><button id="placeBetButColorR">Bet</button></div>
+                    <div class="R"><p id="rolledNumberColorPR"></p></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
